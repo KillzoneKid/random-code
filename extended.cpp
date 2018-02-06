@@ -21,8 +21,7 @@ private:
 		operator int() const { return i; }
 		int square() const { return i * i; }
 		std::string toString() const { return "\"" + std::to_string(i) + "\""; }
-	} 
-	_int;
+	} _int;
 
 public:
 
