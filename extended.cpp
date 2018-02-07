@@ -11,7 +11,6 @@ https://ideone.com/Psh5Sj
 class Ext
 {
 private:
-
 	class Int
 	{
 	private:
@@ -22,9 +21,7 @@ private:
 		int square() const { return i * i; }
 		std::string toString() const { return "\"" + std::to_string(i) + "\""; }
 	} _int;
-
 public:
-
 	Ext(int val) : _int(val) {}
 	Int const &getInt() const { return _int; }
 };
