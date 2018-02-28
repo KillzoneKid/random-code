@@ -17,8 +17,7 @@ public:
 		{
 			return a < b;
 		}
-	} 
-	myUniversalComparator;
+	} myUniversalComparator;
 
 	void mysort(std::vector<int> &vec) 
 	{
