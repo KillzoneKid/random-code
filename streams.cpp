@@ -2,6 +2,7 @@
 	Fun with streams
 	1. Reading whole file into a string
 	2. Reading whole file into std::cin
+	3. Writing into std::cout via ostream iterator
 */
 
 #include <iostream>
@@ -38,10 +39,10 @@ int main()
 	std::ostream_iterator<std::string> it2(std::cout);
 
 	// ostream specifics
-	it = "one";
-	*it = "two";
-	*it++ = "three";
-	*++it = "four";
+	it = "one"; // same
+	*it = "two"; // same
+	*it++ = "three"; // same
+	*++it = "four"; // same
 
 	it2 = "five";
 
