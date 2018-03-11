@@ -32,4 +32,18 @@ int main()
 	std::istream_iterator<std::string> eos;
 	for (; it != eos; ++it)
 		std::cout << *it << std::endl;
+	
+	// output writing into ostream iterator
+	std::ostream_iterator<std::string> it(std::cout, ",");
+	std::ostream_iterator<std::string> it2(std::cout);
+
+	// ostream specifics
+	it = "one";
+	*it = "two";
+	*it++ = "three";
+	*++it = "four";
+
+	it2 = "five";
+
+	std::cout << std::endl;
 }
