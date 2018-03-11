@@ -1,7 +1,6 @@
 /*
-	Copies notepad viad binary stream to desktop and launches the copy
+	Copies notepad via binary stream to desktop and launches the copy
 */
-
 
 #include <iostream>
 #include <string>
