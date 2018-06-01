@@ -1,6 +1,6 @@
 /*
-	Some kind of pool objecty placement overriding
-	new and delete
+	Some kind of pool object placement by 
+	overriding new and delete
 	https://ideone.com/hWaLOn
 */
 
