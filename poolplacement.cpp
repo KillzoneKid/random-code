@@ -1,7 +1,7 @@
 /*
 	Some kind of pool object placement by 
 	overriding new and delete (inc smart pointer)
-	https://ideone.com/AxsEUc
+	https://ideone.com/vmposY
 */
 
 #include <iostream>
