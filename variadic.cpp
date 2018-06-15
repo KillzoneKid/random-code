@@ -1,5 +1,5 @@
 /*
-	Parsing varadic arguments to initializer_list
+	Parsing variadic arguments to initializer_list
 	https://ideone.com/RUDi1S
 */
 
